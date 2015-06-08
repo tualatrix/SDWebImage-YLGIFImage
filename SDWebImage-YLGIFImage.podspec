@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/liyong03/SDWebImage-YLGIFImage.git", :tag => s.version.to_s }
   s.platform     = :ios, '6.0'
   s.source_files =  'SDWebImage+YLGIFImage'
-  s.frameworks   = 'Foundation', 'UIKit', 'MobileCoreServices', 'ImageIO', 'CoreGraphics'
+  s.frameworks   = 'Foundation', 'UIKit', 'MobileCoreServices', 'ImageIO', 'CoreGraphics', 'SDWebImage', 'YLGIFImage'
   s.requires_arc = true
 end
